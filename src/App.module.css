@@ -1,0 +1,50 @@
+.app {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+}
+
+.form {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.input {
+	margin-top: 10px;
+	width: 200px;
+	height: 30px;
+	font-size: 16px;
+	color: black;
+	border-radius: 5px;
+	border: 1px solid #333;
+	padding: 5px 10px;
+}
+
+.errorLabel {
+	color: red;
+	display: inline;
+}
+
+.button {
+	width: 200px;
+  border-radius: 8px;
+  border: 1px solid #242424;
+  font-weight: 500;
+	padding: 10px 15px;
+	font-size: 16px;
+	margin-top: 10px;
+  background-color: #b6b6b6;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+button:hover {
+  border-color: #646cff;
+	background-color: #a3a8fa;
+	color: #4d55f8;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
